@@ -1,6 +1,7 @@
 
 import { ToastContainer, toast } from 'react-toastify'
 import './App.css'
+import { FaHouseUser } from 'react-icons/fa';
 
 function App() {
  const notify = () => toast("Wow so easy!");
@@ -48,7 +49,7 @@ function App() {
     <a className="btn">Button</a>
   </div>
 </div>
-     <h1 className="text-2xl text-center bg-amber-300">Hello World</h1>
+     <h1 className="text-2xl text-center bg-amber-300"> <FaHouseUser />Hello World</h1>
      <div>
         <button className='btn btn-primary' onClick={notify}>Notify!</button>
         <ToastContainer />
