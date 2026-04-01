@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 
-const Navbar = ({ cartCount = 0 }) => {
+const Navbar = ({ cartCount}) => {
     return (
       <div className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
@@ -44,6 +44,8 @@ const Navbar = ({ cartCount = 0 }) => {
             Get Started
           </button>
         </div>
+
+       
       </div>
     </div>
     );
