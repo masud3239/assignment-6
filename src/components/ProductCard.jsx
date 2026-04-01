@@ -4,7 +4,11 @@ const ProductCard = ({ product, addToCart }) => {
   return (
     <div className="bg-white p-5 rounded-xl shadow">
 
-      <div className="text-3xl">{product.icon}</div>
+      <div className="text-3xl"> {<img 
+  src={product.icon} 
+  alt="icon" 
+  style={{ width: "40px", height: "40px", objectFit: "contain" }} 
+/>}</div>
 
       <h2 className="font-bold text-lg mt-2">{product.name}</h2>
       <p className="text-sm text-gray-500">{product.description}</p>
@@ -21,7 +25,7 @@ const ProductCard = ({ product, addToCart }) => {
 
       <button
         onClick={() => addToCart(product)}
-        className="w-full mt-4 bg-purple-600 text-white py-2 rounded"
+        className="w-full mt-4 bg-gradient-to-r from-purple-600 to-indigo-500 text-white px-5 py-2 rounded-full"
       >
         Buy Now
       </button>

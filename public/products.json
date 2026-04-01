@@ -8,7 +8,8 @@
     "tag": "Best Seller",
     "tagType": "best",
     "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
-    "icon": "📝"
+    "icon": "https://i.ibb.co.com/7J6V585H/writing-2327400-1.png"
+    
   },
   {
     "id": 2,
@@ -19,7 +20,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-    "icon": "🎨"
+    "icon": "https://i.ibb.co.com/n8ndG94h/design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +31,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["10M+ assets", "Commercial use", "No attribution"],
-    "icon": "📷"
+    "icon": "https://i.ibb.co.com/hRrfMJkR/camera-8775444-1.png"
   },
   {
     "id": 4,
@@ -41,7 +42,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["50+ automations", "API access", "Custom workflows"],
-    "icon": "⚙️"
+    "icon": "https://i.ibb.co.com/MTJJWJF/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +53,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "📄"
+    "icon": "https://i.ibb.co.com/67p3J8DX/portfolio.png"
   },
   {
     "id": 6,
@@ -63,6 +64,6 @@
     "tag": "Best Seller",
     "tagType": "best",
     "features": ["5000+ assets", "Scheduler", "Analytics"],
-    "icon": "📱"
+    "icon": "https://i.ibb.co.com/4ZYvKS0b/social-media.png"
   }
 ]

@@ -15,14 +15,22 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
           {cart.map(item => (
             <div key={item.id} className="flex justify-between mb-3 bg-gray-100 p-3 rounded">
 
-              <div className="flex flex-col gap-3">
-                <span>{item.icon}</span>
-                <span>{item.name}</span>
-                <div>
-                  ${item.price}
-                </div>
-                  
-              </div>
+              <div className="flex items-center gap-3">
+  
+  {/* Left side - Icon */}
+  <img 
+    src={item.icon} 
+    alt="icon" 
+    className="w-10 h-10 object-contain"
+  />
+
+  {/* Right side - Text */}
+  <div className="flex flex-col">
+    <span className="font-semibold">{item.name}</span>
+    <span className="text-gray-500">${item.price}</span>
+  </div>
+
+</div>
 
               <div>
               
@@ -48,7 +56,7 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
             onClick={clearCart}
             className="w-full mt-3 bg-gradient-to-r from-blue-600 to-purple-500 text-white py-2 rounded-lg"
           >
-            Proceed to Checkout
+            Proceed To Checkout
           </button>
         </>
       )}
