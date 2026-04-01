@@ -9,15 +9,18 @@ Description
 A modern digital tools marketplace where users can browse products, add to cart, and checkout.
 
 Technologies
-React.js
-Tailwind CSS
-JavaScript
-React Toastify
+
+1. React.js  
+2. Tailwind CSS, DaisyUI 
+3. JavaScript (ES6+)  
+4. React-Toastify (NPM Package)  
+5. JSON (for product data) 
 
 Features
-Add to cart with live counter
-Remove & checkout functionality
-Product & cart toggle system
+
+1. Add to cart with live counter
+2. Remove & checkout functionality
+3. Product & cart toggle system
 
 
 
